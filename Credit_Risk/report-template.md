@@ -11,18 +11,22 @@ The variable for 'loan_status':
 - High-risk loan (1): 625
 
 Stages of the machine learning process of this analysis:
+Refer to "credit_risk_classification.ipynb"
 - Data Loading and Preprocessing
 - Model Development
 - Model Evaluation
 
 Methods Used - `LogisticRegression`:
-The primary method used in this analysis was LogisticRegression from the scikit-learn library. 
-By following this process, the logistic regression model was able to provide accurate predictions, effectively distinguishing between healthy and high-risk loans based on the given financial data.
+The primary method used in this analysis was LogisticRegression from the sklearn.linear_model library. 
+By following this process, the logistic regression model was able to provide accurate predictions, effectively distinguishing between healthy and high-risk loans based on the given financial data, refer to "Resources" folder-"lending_data.csv".
 
 ## Results
 
 * Machine Learning Model - The logistic regression model:
-    *  The logistic regression model exhibits strong performance in predicting both healthy loans and high-risk loans. It achieves an overall accuracy of 99%, indicating that the majority of its predictions are correct. For healthy loans (label 0), the model achieves a precision and recall of 100%, meaning it perfectly identifies all healthy loans without any false positives or false negatives. For high-risk loans (label 1), the model has a precision of 87% and a recall of 95%, indicating it correctly identifies 87% of high-risk loans it predicts and captures 95% of all actual high-risk loans. The macro average precision is 94%, the macro average recall is 97%, and the macro average f1-score is 95%, reflecting the model's overall robust performance.
+    *  The logistic regression model exhibits strong performance in predicting both healthy loans and high-risk loans. 
+    - It achieves an overall accuracy of 99%, indicating that the majority of its predictions are correct. For healthy loans (label 0), the model achieves a precision and recall of 100%, meaning it perfectly identifies all healthy loans without any false positives or false negatives. 
+    - For high-risk loans (label 1), the model has a precision of 87% and a recall of 95%, indicating it correctly identifies 87% of high-risk loans it predicts and captures 95% of all actual high-risk loans. 
+    - The macro average precision is 94%, the macro average recall is 97%, and the macro average f1-score is 95%, reflecting the model's overall robust performance.
    
 
 ## Summary
