@@ -2,20 +2,20 @@
 
 ## Overview of the Analysis
 
-* Purpose of the Analysis
+Purpose of the Analysis:
 The purpose of this analysis is to develop a machine learning model that can accurately predict loan status, classifying loans as either healthy (0) or high-risk (1). This analysis aims to  build a model that can identify the creditworthiness of borrowers.
 
-* The logistic regression model by using the original traning data sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions.The target variable to predict is the 'loan_status', which indicates whether a loan is healthy (0) or high-risk (1).
-* The variable for 'loan_status':
+The logistic regression model by using the original traning data sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions.The target variable to predict is the 'loan_status', which indicates whether a loan is healthy (0) or high-risk (1).
+The variable for 'loan_status':
 - Healthy loan (0): 18,759
 - High-risk loan (1): 625
 
-* Stages of the machine learning process of this analysis
+Stages of the machine learning process of this analysis:
 - Data Loading and Preprocessing
 - Model Development
 - Model Evaluation
 
-* Methods Used - `LogisticRegression`
+Methods Used - `LogisticRegression`:
 The primary method used in this analysis was LogisticRegression from the scikit-learn library. 
 By following this process, the logistic regression model was able to provide accurate predictions, effectively distinguishing between healthy and high-risk loans based on the given financial data.
 
